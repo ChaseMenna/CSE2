@@ -3,6 +3,7 @@
 //CSE2
 //Root.java
 //hw03
+//9/16/2014
 
 import java.util.Scanner;
 public class Root {

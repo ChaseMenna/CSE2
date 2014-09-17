@@ -3,6 +3,7 @@
 //CSE2
 //hw03
 //FourDigits
+//9/16/2014
 
 import java.util.Scanner;
 public class FourDigits {

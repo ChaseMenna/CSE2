@@ -2,6 +2,7 @@
 //Chase Menna
 //hw03
 //CSE2
+//9/16/2014
 
 import java.util.Scanner;
 public class Bicycle {
