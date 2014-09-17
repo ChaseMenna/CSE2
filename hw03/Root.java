@@ -22,7 +22,7 @@ public class Root {
         double guess2=(div3*div3*div3+dubz)/(3*div3*div3);
         double guess3=(2*guess2*guess2*guess2+dubz)/(3*guess2*guess2);
         double guess4=(2*guess3*guess3*guess3+dubz)/(3*guess3*guess3);
-        double sqrt=(2*guess4*guess4*guess4+dubz)/(3*guess4*guess4);
+        double sqrt=(int)((2*guess4*guess4*guess4+dubz)/(3*guess4*guess4));
        
         
         //output
