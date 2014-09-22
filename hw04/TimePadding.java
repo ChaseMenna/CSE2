@@ -37,6 +37,9 @@ public class TimePadding {
          int secs= (int)(seconds%60);
          
          //padding
+         //..........................................................
+         //take each option (8) whether 3 vars are <10
+         // then add a "0" in front of any under 10 when displayed
          
          if (((hours<10)&&(minutes<10)&&(secs<10))==true) {
              System.out.println("The time is: " +0+ hours+":" +0+ +minutes+ ":" +0+ +secs);
