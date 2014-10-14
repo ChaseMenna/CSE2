@@ -15,7 +15,7 @@ public class Roulette {
         int play=0;
         int play100=0;
         
-        //ways to win
+        //ways to win counted per spin
         int wonsome=0;
         int wonnone=0;
         int lostsome=0;
@@ -37,7 +37,7 @@ public class Roulette {
                 play100++;
             }
             play++;
-            //how many times each outcome
+            //how many wins per set of 100
             if (totalgames>100) {//how many games won some
                 wonsome++;
             } 
@@ -47,6 +47,7 @@ public class Roulette {
             else {//how many games lost some money
                 lostsome++;
             }
+            //add money to total earnings
             totalwinnings+= totalgames;
         }    
         //output
