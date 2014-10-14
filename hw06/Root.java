@@ -35,7 +35,7 @@ public class Root {
                     if (Math.pow(mid,2) > x) { 
                         high=mid;
                     }
-                    else {
+                    else { 
                         low=mid;
                     }
                 }
