@@ -85,12 +85,13 @@ public class MoreLoops{
     //     break;
     // }
     
-    for(int count=0;count<=10;count++) {
+    for(int count=0; count<1; count++) {
         if (n == 1 || n == 2) {
             System.out.print("Case 2 ");
-            count--;
-        } else if (n == 4 || n == 5) {
+            
+        } else if (n == 4) {
             System.out.println("Case 4");
+        } else if (n == 5) {
             System.out.println("Case 5");
         } else if (n == 3) {
             ;
