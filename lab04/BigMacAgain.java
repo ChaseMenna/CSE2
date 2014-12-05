@@ -30,6 +30,10 @@ public class BigMacAgain {
         if (myscanner.hasNextInt()) {
         int bigmacs= myscanner.nextInt();
         
+        if (bigmacs<0) {
+            System.out.println("you didnt enter a positive number");
+            return;
+        }
         double cost10= bigmacs*bmcost;
         int cost00=(int)(cost10*100);
         double cost1= cost00/100;
@@ -68,10 +72,11 @@ public class BigMacAgain {
             System.out.println("You did not order fries with that.");
             System.out.println("The total cost of the meal is: $" +cost);
             }
-            }
+            
             else{
-            System.out.println("you did not enter Y/y/N/n");
-            return;
+                System.out.println("you did not enter Y/y/N/n");
+                return;
+            }
             }
         }    
         else{

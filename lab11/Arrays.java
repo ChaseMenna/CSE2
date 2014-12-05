@@ -58,7 +58,7 @@ public class Arrays {
     
     public static int getInt(boolean i) {
         while (true) {
-            if (i=true) {
+            if (i==true) {
                 int p=myscanner.nextInt();
                 return p;
             }
